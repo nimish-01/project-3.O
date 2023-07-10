@@ -47,6 +47,10 @@
     width: 136px;
     text-align: right;
 }
+.nav-item:hover a{
+    color:  #87d37c;
+    transition: 1s;
+}
 .carousel-indicators button {
     height: 20px !important;
     width: 20px !important;
@@ -66,8 +70,11 @@
     color: #fff;
     text-transform: uppercase;
 }
+/* row 1 ends*/
+/* row 2 starts*/
+
 #row2{
-    height: 300px;
+    height: 700px;
     width: 100%;
     background: #fff;
 }
@@ -114,6 +121,84 @@
 .icon p{
     text-align: justify;
 }
+/* row 2 ends*/
+/* row 3 starts*/
+#row3{
+    height: 500px;
+    width: 100%;
+    background: whitesmoke;
+}
+.service_section{}
+.service_top{
+    text-align: center;
+    padding: 50px 0px;
+
+}
+.service_top h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.service_top p{
+     width: 700px;
+     margin: 0 auto;
+}
+.service_bottom{}
+.service_item{
+    height: 220px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.service_item img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.service_overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: -100%;
+    transition: 2s;
+}
+.service_item:hover .service_overlay{
+    top: 0;
+}
+.service_item:hover .service_icon{
+    top: 45%;
+}
+.service_icon{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 2s;
+    transition: all;
+    left: 35%;
+}
+
+.service_icon i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+   color: #fff;
+   transition: 1s;
+}
+.service_icon i:hover{
+    background: #87d37c;
+    border: 1px solid #87d37c;
+}
+
+
+
+
+
+
+
 
 
 
